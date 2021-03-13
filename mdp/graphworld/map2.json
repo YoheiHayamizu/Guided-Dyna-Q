@@ -1,0 +1,25 @@
+{
+  "name": "graphworld2",
+  "info": [
+    {"node_id": 0, "door_id": null, "door_open": null, "success_rate": 0.95, "stack_rate": 0.0, "adjacent": [1, 2]},
+    {"node_id": 1, "door_id": 0, "door_open": false, "success_rate": 0.6, "stack_rate": 0.2, "adjacent": [0, 2, 3]},
+    {"node_id": 2, "door_id": 1, "door_open": false, "success_rate": 0.9, "stack_rate": 0.0, "adjacent": [0, 1, 4]},
+    {"node_id": 3, "door_id": 0, "door_open": false, "success_rate": 0.6, "stack_rate": 0.2, "adjacent": [1, 5]},
+    {"node_id": 4, "door_id": 1, "door_open": false, "success_rate": 0.9, "stack_rate": 0.0, "adjacent": [2, 8]},
+    {"node_id": 5, "door_id": null, "door_open": null, "success_rate": 0.95, "stack_rate": 0.0, "adjacent": [3, 6, 8]},
+    {"node_id": 6, "door_id": 3, "door_open": false, "success_rate": 0.9, "stack_rate": 0.0, "adjacent": [5, 7]},
+    {"node_id": 7, "door_id": 3, "door_open": false, "success_rate": 0.9, "stack_rate": 0.0, "adjacent": [6, 17]},
+    {"node_id": 8, "door_id": null, "door_open": null, "success_rate": 0.95, "stack_rate": 0.0, "adjacent": [4, 5, 9, 11]},
+    {"node_id": 9, "door_id": 2, "door_open": false, "success_rate": 0.6, "stack_rate": 0.4, "adjacent": [8, 10]},
+    {"node_id": 10, "door_id": 2, "door_open": false, "success_rate": 0.6, "stack_rate": 0.4, "adjacent": [9, 17]},
+    {"node_id": 11, "door_id": null, "door_open": null, "success_rate": 0.95, "stack_rate": 0.0, "adjacent": [8, 12, 14]},
+    {"node_id": 12, "door_id": 4, "door_open": false, "success_rate": 0.9, "stack_rate": 0.0, "adjacent": [11, 13]},
+    {"node_id": 13, "door_id": 4, "door_open": false, "success_rate": 0.9, "stack_rate": 0.0, "adjacent": [12, 18]},
+    {"node_id": 14, "door_id": null, "door_open": null, "success_rate": 0.95, "stack_rate": 0.0, "adjacent": [11, 15]},
+    {"node_id": 15, "door_id": 5, "door_open": false, "success_rate": 0.8, "stack_rate": 0.2, "adjacent": [14, 16]},
+    {"node_id": 16, "door_id": 5, "door_open": false, "success_rate": 0.8, "stack_rate": 0.2, "adjacent": [15, 18]},
+    {"node_id": 17, "door_id": null, "door_open": null, "success_rate": 0.95, "stack_rate": 0.0, "adjacent": [7, 10, 18]},
+    {"node_id": 18, "door_id": null, "door_open": null, "success_rate": 0.95, "stack_rate": 0.0, "adjacent": [13, 16, 17]}
+  ],
+  "init_node": {"node_id": 0, "door_id": null, "door_open": null, "success_rate": 0.99, "stack_rate": 0.0, "adjacent": [1, 2]}
+}
